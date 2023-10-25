@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9d9d9;
+  /* font-family: "Croissant One", serif; */
+  font-family: "Nunito", sans-serif;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: url(../assets/KalosModel.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* border: 4px solid black; */
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  padding: 20px 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .nav-links {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+header .nav-links a {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 2px 15px;
+  font-family: "Nunito";
+}
+
+header .logo {
+  position: relative;
+  width: 220px;
+  letter-spacing: 2px;
+  font-family: "Nunito";
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header .signup {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+header .signup a {
+  color: black;
+  background-color: #d9d9d9;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Nunito";
+  font-size: 20px;
+  border: 2px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 0 8px;
+}
+
+.hero-section {
+  /* border: 3px solid red; */
+  position: relative;
+  margin: 20px 55px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Nunito";
+}
+
+.hero-section .cta {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #d9d9d9;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  font-size: 40px;
+  padding: 20px 65px;
+  margin-top: 40px;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.hero-text {
+  position: relative;
+  width: 100%;
+  margin-bottom: 5px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  text-wrap: nowrap;
+}
+
+.hero-text h2 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.hero-section img {
+  overflow: hidden;
+  width: 100%;
+  opacity: 90%;
+}
+
+.services {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
